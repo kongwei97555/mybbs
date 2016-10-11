@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="ssm_freemarker">
+    <output-path>$USER_HOME$/Desktop</output-path>
+    <root id="archive" name="ssm_freemarker.war" />
+  </artifact>
+</component>

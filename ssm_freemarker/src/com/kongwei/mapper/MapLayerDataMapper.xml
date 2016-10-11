@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper  
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">  
+<mapper namespace="com.kongwei.mapper.MapLayerDataMapper">
+<!-- 根据用户id查询用户 -->
+	<select id="findAll"  resultMap="mapLayerDataResult">
+		select * from map_layer_data 
+	</select>
+	<resultMap type="com.kongwei.bean.MapLayerData" id="mapLayerDataResult">
+		<id column="id" property="id"/>
+		<result column="data" property="data"/>
+		<result column="x" property="x"/>
+		<result column="y" property="y"/>
+		<result column="type" property="type"/>
+	</resultMap>
+</mapper>

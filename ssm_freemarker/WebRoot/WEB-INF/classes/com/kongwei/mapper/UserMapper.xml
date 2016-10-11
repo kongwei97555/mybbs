@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper  
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">  
+<mapper namespace="com.kongwei.mapper.UserMapper">
+<!-- 根据用户id查询用户 -->
+	<select id="findUserById" parameterType="int" resultType="com.kongwei.bean.User">
+		select * from user where id=#{id}
+	</select>
+	
+	<select id="findUserByUsernameAndPassword" parameterType="com.kongwei.bean.User" resultType="com.kongwei.bean.User">
+		select * from user where username=#{username} and password=#{password}
+	</select>
+</mapper>

@@ -1,0 +1,170 @@
+svg{
+	width:1500px;
+	height:1370px;
+	font-family:微软雅黑;
+	font-size:1em
+ }
+ text{
+	fill:#000000;
+	stroke:none;
+	stroke-opacity:0 
+ }
+ 
+ /* 图层轮廓 */
+.outline{
+	fill:#FFFFCC;
+	stroke:#000000;
+	stroke-opacity:1
+}
+ /* 空白店面 */
+.empty_area {
+	fill:#CCFFFF;
+	stroke:#666666;
+	stroke-opacity:1
+ }
+ /* 楼层楼梯 */
+.floor_area{
+	fill:#FFCCCC;
+	stroke:#666666;
+	stroke-opacity:0	
+}
+/* 手扶电梯 */
+.elevator_area{
+	fill:#FFCCCC;
+	stroke:#666666;
+	stroke-opacity:0	
+}
+/* 升降电梯 */
+.lift_area{
+	fill:#FFCCCC;
+	stroke:#666666;
+	stroke-opacity:0	
+}
+/* 停车场*/
+.parking_area{
+	fill:#99FFCC;
+	stroke:#666666;
+	stroke-opacity:1	
+}
+/* 办公区 */
+.office_area{
+	fill:#96abac;
+	stroke:#666666;
+	stroke-opacity:1	
+}
+/* 洗手间 */
+.totile_area{
+	fill:#FFCCCC;
+	stroke:#666666;
+	stroke-opacity:0	
+}
+/* 服装 */
+.clothing_area{
+	fill:#CCCCFF;
+	stroke:#666666;
+	stroke-opacity:1
+}
+/* 鞋子 */
+.shoes_area{
+	fill:#CC9999;
+	stroke:#666666;
+	stroke-opacity:1
+}
+
+.underwear_area{
+	fill:#FF3399;
+	stroke:#666666;
+	stroke-opacity:1
+}
+/* 珠宝 */
+.jewelry_area{
+	fill:#FFCC99;
+	stroke:#666666;
+	stroke-opacity:1
+}
+/* 化妆 */
+.makeup_area{
+	fill:#FF9999;
+	stroke:#666666;
+	stroke-opacity:1
+}
+/* 餐饮 */
+.food_area{
+	fill:#99CC66;
+	stroke:#666666;
+	stroke-opacity:1
+}
+/* 超市 */
+.market_area{
+	fill:#CCCC99;
+	stroke:#666666;
+	stroke-opacity:1
+}
+/* 运动 */
+.sport_area{
+	fill:#0099CC;
+	stroke:#666666;
+	stroke-opacity:1
+}
+/* 儿童 */
+.kid_area{
+	fill:#e26d64;
+	stroke:#666666;
+	stroke-opacity:1
+}
+/* 电器 */
+.electric_area{
+	fill:#006699;
+	stroke:#666666;
+	stroke-opacity:1
+}
+/* 其他 */
+.other_area{
+	fill:#3bb3c3;
+	stroke:#666666;
+	stroke-opacity:1
+}
+/* 电影院区域 */
+.movie_area{
+	fill:#FFFF99;
+	stroke:#666666;
+	stroke-opacity:1
+}
+.mv_room_area{
+	fill:#FF9966;
+	stroke:#666666;
+	stroke-opacity:1
+}
+
+/* 百货超市区域 */
+.mk_food_area{
+	fill:#99CC00;
+	stroke:#666666;
+	stroke-opacity:1
+}
+.mk_red_area{
+	fill:#FF6666;
+	stroke:#666666;
+	stroke-opacity:1
+}
+.mk_green_area{
+	fill:#0099CC;
+	stroke:#666666;
+	stroke-opacity:1
+}
+.mk_blue_area{
+	fill:#0066CC;
+	stroke:#666666;
+	stroke-opacity:1
+}
+.mk_purple_area{
+	fill:#333399;
+	stroke:#666666;
+	stroke-opacity:1
+}
+.mk_cash_area{
+	fill:#ffcc00;
+	stroke:#666666;
+	stroke-opacity:1
+	
+}

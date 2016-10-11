@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper  
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">  
+<mapper namespace="com.kongwei.mapper.SpotDataMapper">
+<!-- 根据用户id查询用户 -->
+	<select id="findDataBycondition"  resultMap="spotDataResult">
+		select * from spot_data where fk_market_id = #{fk_market_id}
+	</select>
+	<select id="findById"  resultMap="spotDataResult">
+		select * from spot_data where id=#{id} and floor=#{floor} and fk_market_id=#{fk_market_id}
+	</select>
+	<select id="findByMap" resultMap="spotDataResult">
+		select * from spot_data where up=#{id} or down=#{id} or left=#{id} or right=#{id}
+	</select>
+	<resultMap type="com.kongwei.bean.SpotData" id="spotDataResult">
+		<id column="id" property="id"/>
+		<result column="data" property="data"/>
+		<result column="x" property="x"/>
+		<result column="y" property="y"/>
+		<result column="floor" property="floor"/>
+		<result column="up" property="up"/>
+		<result column="down" property="down"/>
+		<result column="left" property="left"/>
+		<result column="right" property="right"/>
+		<result column="fk_market_id" property="fk_market_id"/>
+	</resultMap>
+</mapper>
